@@ -46,7 +46,8 @@
 - **Tickets**: Sidan där användare kan se sina beställda biljetter.
 
 ### Komponenter
-- **CartItem**: Visar enskilda varukorgsartiklar.
 - **EventItem**: Visar enskilda events i eventlistan.
+- **CartItem**: Visar enskilda varukorgsartiklar.
 - **TicketItem**: Visar enskilda biljetter på biljettsidan.
 - **Navbar**: Global komponent för att navigera mellan sidor.
+- **TicketCounter**: Återanvändbar komponent för att visa och hatera biljettkvantitet.
