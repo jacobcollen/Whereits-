@@ -1,0 +1,57 @@
+/* ticketCounter.css */
+
+.ticket-counter {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 60% 40%;
+  border: 2px solid #F56B9A;
+  border-radius: var(--br);
+}
+
+.ticket-counter__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ticket-counter__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #F56B9A;
+}
+
+.ticket-counter__quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.75rem;
+  font-weight: 300;
+  border-right: 1px solid #F56B9A;
+  border-left: 1px solid #F56B9A;
+}
+
+.ticket-counter__price {
+  font-size: 2rem;
+  text-shadow: 1px 1px 0px #F56B9A;
+}
+
+.ticket-counter__event-name {
+  font-family: "Sansita", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #F56B9A;
+  text-shadow: 1px 1px 0px #000;
+  text-align: left;
+  margin-left: .5rem;
+}
+
+.ticket-counter__event-date {
+  color: #37AEAB;
+  font-size: 0.875rem;
+  text-align: left;
+  margin-left: .5rem;
+}

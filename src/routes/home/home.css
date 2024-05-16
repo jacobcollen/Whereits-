@@ -1,0 +1,25 @@
+.home__link {
+  position: fixed;
+  top: 0;
+  bottom: 3.5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  }
+  
+  .home {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 11.5;
+  }
